@@ -1,0 +1,194 @@
+[
+    {
+        "title": "Papa Haight’s Mexican Cornbread",
+        "categories": [],
+        "ingredients": [
+            {
+                "name": "Cornbread Mix",
+                "qty": 1.5,
+                "unit": "c"
+            },
+            {
+                "name": "Vegetable Oil",
+                "qty": 0.25,
+                "unit": "c"
+            },
+            {
+                "name": "Onion (chopped)",
+                "qty": 1,
+                "unit": null
+            },
+            {
+                "name": "Sugar",
+                "qty": 1,
+                "unit": "tbsp"
+            },
+            {
+                "name": "Jalapeno",
+                "qty": 1,
+                "unit": null
+            }
+        ],
+        "instructions": [
+            {
+                "text": "Preheat oven to 400°F. Heat iron skillet in oven."
+            },
+            {
+                "text": "Mix all ingredients together."
+            },
+            {
+                "text": "Place mixture in skillet and bake for 20-30 minutes."
+            }
+        ],
+        "images": null
+    },
+    {
+        "title": "Beef and Onion Gravy",
+        "categories": [],
+        "ingredients": [
+            {
+                "name": "Onion Soup mix",
+                "qty": 1,
+                "unit": "packet"
+            },
+            {
+                "name": "Stew Meat",
+                "qty": 1,
+                "unit": "lb"
+            }
+        ],
+        "instructions": [
+            {
+                "text": "Coat meat with flour and brown on all sides. Place in crock pot with onion soup mix and water as directed on soup packet. Cook on high for 8 hours."
+            }
+        ],
+        "images": null
+    },
+    {
+        "title": "Hamburger Mushroom Rice Topper",
+        "categories": [],
+        "ingredients": [
+            {
+                "name": "Cooked Rice",
+                "qty": 1,
+                "unit": "c"
+            },
+            {
+                "name": "Ground Beef",
+                "qty": 1,
+                "unit": "lb"
+            },
+            {
+                "name": "Medium Onion; Chopped",
+                "qty": 1,
+                "unit": null
+            },
+            {
+                "name": "Butter",
+                "qty": 1,
+                "unit": "tbsp"
+            },
+            {
+                "name": "Cream of Mushroom Soup",
+                "qty": 1,
+                "unit": "can"
+            },
+            {
+                "name": "Brown Gravy Mix",
+                "qty": 1,
+                "unit": "packet"
+            }
+        ],
+        "instructions": [
+            {
+                "text": "Cook rice according to package directions and keep warm."
+            },
+            {
+                "text": "Saute onions in butter until tender."
+            },
+            {
+                "text": "Add hamburger meat and cook until done; drain."
+            },
+            {
+                "text": "Add soup, brown gravy mix, and salt and pepper, cook until heated through. Serve over rice."
+            }
+        ],
+        "images": null
+    },
+    {
+        "title": "Green Bean Casserole",
+        "categories": [],
+        "ingredients": [
+            {
+                "name": "Green Beans, Cut",
+                "qty": 4,
+                "unit": "cans"
+            },
+            {
+                "name": "Cream of Mushroom Soup",
+                "qty": 1,
+                "unit": "can"
+            },
+            {
+                "name": "French Fried Onions",
+                "qty": 1,
+                "unit": "can"
+            },
+            {
+                "name": "Milk",
+                "qty": 1,
+                "unit": "cup"
+            }
+        ],
+        "instructions": [
+            {
+                "text": "Mix green beans, cream of mushroom soup, milk, and half the French fried onion container together in a casserole dish."
+            },
+            {
+                "text": "Salt and pepper. Cover the top with the rest of the French fried onions."
+            },
+            {
+                "text": "  Bake till warm, at 350 degrees, usually about 20-30 minutes."
+            }
+        ],
+        "images": null
+    },
+    {
+        "title": "Garett's Badass Chicken Legs",
+        "categories": [], 
+        "ingredients": [
+            {
+                "name": "Salt",
+                "qty": 0.5,
+                "unit": "cups"
+            },
+            {
+                "name": "Sugar",
+                "qty": 0.5,
+                "unit": "cups"
+            },
+            {
+                "name": "Hot Water",
+                "qty": 1,
+                "unit": "cup"
+            },
+            {
+                "name": "Cold Water",
+                "qty": 2,
+                "unit": "quarts"
+            }
+        ],
+        "instructions": [
+            {
+                "text": "Brine chicken for 3-4 hours in the refrigerator, then remove, drain rinse, and pat dry."
+            },
+            {
+                "text": "Rub chicken with paprika, garlic powder, parsley, lawry's seasoning salt, and black pepper."
+            },
+            {
+                "text": "Bake @300F for about 1 hour. Let cool, then baste with BBQ sauce and heat on the grill 4-8 minutes per side."
+            }
+        ],
+        "images": null
+    }
+]
