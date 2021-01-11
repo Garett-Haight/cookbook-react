@@ -40,7 +40,7 @@
                 "text": "Place mixture in skillet and bake for 20-30 minutes."
             }
         ],
-        "images": null
+        "images": ["mexcornbread.jpg"]
     },
     {
         "title": "Beef and Onion Gravy",
@@ -62,7 +62,7 @@
                 "text": "Coat meat with flour and brown on all sides. Place in crock pot with onion soup mix and water as directed on soup packet. Cook on high for 8 hours."
             }
         ],
-        "images": null
+        "images": ["beef-and-onion-gravy.jpg"]
     },
     {
         "title": "Hamburger Mushroom Rice Topper",
@@ -113,7 +113,7 @@
                 "text": "Add soup, brown gravy mix, and salt and pepper, cook until heated through. Serve over rice."
             }
         ],
-        "images": null
+        "images": ["hamburger-rice-topper.jpg"]
     },
     {
         "title": "Green Bean Casserole",
@@ -151,7 +151,7 @@
                 "text": "  Bake till warm, at 350 degrees, usually about 20-30 minutes."
             }
         ],
-        "images": null
+        "images": ["green-bean-casserole.jpg"]
     },
     {
         "title": "Garett's Badass Chicken Legs",
@@ -189,6 +189,6 @@
                 "text": "Bake @300F for about 1 hour. Let cool, then baste with BBQ sauce and heat on the grill 4-8 minutes per side."
             }
         ],
-        "images": null
+        "images": ["chicken-legs.jpg"]
     }
 ]

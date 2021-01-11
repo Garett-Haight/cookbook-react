@@ -1,0 +1,23 @@
+[
+    {
+        "id": 0,
+        "title": "Dinner",
+        "parent": "root",
+        "type": "meal",
+        "description": ""
+    },
+    {
+        "id": 1,
+        "title": "Mexican",
+        "parent": "root",
+        "type": "cuisine",
+        "description": ""
+    },
+    {
+        "id": 2,
+        "title": "American",
+        "parent": "root",
+        "type": "cuisine",
+        "description": ""
+    }
+]
