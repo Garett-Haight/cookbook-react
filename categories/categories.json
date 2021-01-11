@@ -19,5 +19,12 @@
         "parent": "root",
         "type": "cuisine",
         "description": ""
+    },
+    {
+        "id": 3,
+        "title": "Barbeque",
+        "parent": "root",
+        "type": "cuisine",
+        "description": ""
     }
 ]

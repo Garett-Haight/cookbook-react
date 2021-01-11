@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import styles from '../styles/Home.module.css'
 import Layout from '../components/layout'
 import { makeStyles } from '@material-ui/core/styles';
 import GridList from '@material-ui/core/GridList';
@@ -9,17 +8,21 @@ import GridListTile from '@material-ui/core/GridListTile';
 import GridListTileBar from '@material-ui/core/GridListTileBar';
 import IconButton from '@material-ui/core/IconButton';
 import InfoIcon from '@material-ui/icons/Info';
-import { getRecipesData } from '../lib/recipe'
+import { getRecipesData, getRecipesByCategory } from '../lib/recipe'
 import { getCategoriesData } from '../lib/category';
-import { ImageSearch } from '@material-ui/icons'
+import { Category, ImageSearch } from '@material-ui/icons'
 
 export async function getStaticProps() {
   const allRecipesData = getRecipesData()
   const allCategoriesData = getCategoriesData();
+  const recipesByCategory = allCategoriesData.map((category) => {
+      return getRecipesByCategory(category.id);
+  });
   return {
     props: {
       allRecipesData,
-      allCategoriesData
+      allCategoriesData,
+      recipesByCategory
     }
   }
 }
@@ -45,7 +48,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function Home({ allRecipesData, allCategoriesData }) {
+export default function Home({ allRecipesData, allCategoriesData, recipesByCategory }) {
   const classes = useStyles();
   return (
     <Layout>
@@ -57,9 +60,14 @@ export default function Home({ allRecipesData, allCategoriesData }) {
       </h2> */}
       <section className={classes.root}>
         <ul>
-          {allCategoriesData.map((c) => {
-            <li>{c.title}</li>
-          })}
+          {allCategoriesData.length}
+          {allCategoriesData.map((cat, idx) => ( 
+            <li key={cat.id}>
+              <ul>
+               
+              </ul>
+            </li>
+          ))}
         </ul>
         <GridList cellHeight={300} cols={3} className={classes.gridList}>
           {/* <GridListTile key="Subheader" cols={2} style={{ height: 'auto' }}>
@@ -97,10 +105,6 @@ export default function Home({ allRecipesData, allCategoriesData }) {
             ))}
           </ul> */}
       </section>
-
-      <footer className={styles.footer}>
-
-      </footer>
     </Layout>
   )
 }

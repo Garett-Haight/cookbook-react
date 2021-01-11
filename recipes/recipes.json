@@ -1,7 +1,7 @@
 [
     {
         "title": "Papa Haight’s Mexican Cornbread",
-        "categories": [],
+        "categories": [0],
         "ingredients": [
             {
                 "name": "Cornbread Mix",
@@ -44,7 +44,7 @@
     },
     {
         "title": "Beef and Onion Gravy",
-        "categories": [],
+        "categories": [2],
         "ingredients": [
             {
                 "name": "Onion Soup mix",
@@ -66,7 +66,7 @@
     },
     {
         "title": "Hamburger Mushroom Rice Topper",
-        "categories": [],
+        "categories": [2, 0],
         "ingredients": [
             {
                 "name": "Cooked Rice",
@@ -117,7 +117,7 @@
     },
     {
         "title": "Green Bean Casserole",
-        "categories": [],
+        "categories": [2, 0],
         "ingredients": [
             {
                 "name": "Green Beans, Cut",
@@ -155,7 +155,7 @@
     },
     {
         "title": "Garett's Badass Chicken Legs",
-        "categories": [], 
+        "categories": [2, 0, 3], 
         "ingredients": [
             {
                 "name": "Salt",
